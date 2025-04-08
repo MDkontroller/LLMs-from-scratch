@@ -1,0 +1,32 @@
+# Python-specific
+__pycache__/
+*.pyc
+*.pyd
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Virtual environment (if you have one)
+venv/
+.venv/
+
+# Logs and temporary files
+*.log
+tmp/
+temp/
+tmp.*
+*.tmp
+
+# Git-related (already ignored by .gitignore, but doesn't hurt here)
+.git/
+
+# OS-specific artifacts
+.DS_Store
+Thumbs.db
+
+# Node.js specific (if relevant to any dependencies)
+node_modules/
+
+# Other build or output directories (adjust as needed)
+build/
+dist/
